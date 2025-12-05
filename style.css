@@ -1,0 +1,2434 @@
+body {
+    font-family: Satoshi;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: relative;
+    background-color: var(--background);
+}
+
+.navigation .nav-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.navigation .logo {
+    position: relative;
+    width: 243.41px;
+    height: 32px;
+}
+
+.navigation .storefront {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.navigation .NFT-marketplace {
+    position: absolute;
+    top: 9px;
+    left: 44px;
+    width: 199px;
+    height: 20px;
+}
+
+.navigation .nav-nav-menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.navigation .div {
+    display: inline-flex;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-family: Work Sans !important;
+    padding: 0px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.navigation .div:hover {
+    transform: scale(0.95);
+}
+
+.navigation .button {
+    position: relative;
+    width: fit-content;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+}
+
+.navigation .sign-up {
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 30px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--call-to-action);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.navigation .sign-up:hover {
+    transform: scale(0.95);
+}
+
+.navigation .user {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    padding: 80px 195px;
+    position: relative;
+    background-color: var(--background);
+}
+
+.hero-section .hero-section-frame {
+    display: flex;
+    width: 1050px;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    margin-left: -80.00px;
+    margin-right: -80.00px;
+}
+
+.hero-section .hero-text-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.hero-section .headline-subhead {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.hero-section .discover-digital-art {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    width: 510px;
+    margin-top: -1.00px;
+    font-family: var(--h1-work-sans-font-family);
+    font-weight: var(--h1-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--h1-work-sans-font-size);
+    letter-spacing: var(--h1-work-sans-letter-spacing);
+    line-height: var(--h1-work-sans-line-height);
+    font-style: var(--h1-work-sans-font-style);
+}
+
+.hero-section .NFT-marketplace-UI {
+    position: relative;
+    align-self: stretch;
+    font-weight: var(--body-text-work-sans-font-weight);
+    color: #ffffffde !important;
+    font-size: var(--body-text-work-sans-font-size);
+    letter-spacing: var(--body-text-work-sans-letter-spacing);
+    line-height: var(--body-text-work-sans-line-height);
+    font-style: var(--body-text-work-sans-font-style);
+}
+
+.hero-section .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 50px;
+    position: relative;
+    background-color: var(--call-to-action);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.hero-section .button:hover {
+    transform: scale(0.95);
+}
+
+.hero-section .rocket-launch {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.hero-section .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+}
+
+.hero-section .additional-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 20px;
+}
+
+.hero-section .div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 20px;
+}
+
+.hero-section .text-wrapper-2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: Work Sans !important;
+    font-weight: var(--h4-space-mono-font-weight);
+    color: var(--white);
+    font-size: var(--h4-space-mono-font-size);
+    letter-spacing: var(--h4-space-mono-letter-spacing);
+    line-height: var(--h4-space-mono-line-height);
+    font-style: var(--h4-space-mono-font-style);
+}
+
+.hero-section .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    font-family: Work Sans !important;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 38.4px;
+}
+
+.hero-section .highlighted-NFT {
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-image: url(https://cdn.animaapp.com/projects/6357ce7c8a65b2f16659918c/files/heroanimationtransparentbck-2.gif);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 80px 195px;
+    position: relative;
+    background-color: var(--background);
+}
+
+.hero-section .hero-section-frame {
+    display: flex;
+    max-width: 1050px;
+    width: 100%;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    margin-left: -80px;
+    margin-right: -80px;
+}
+
+.hero-section .hero-text-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.hero-section .headline-subhead {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.hero-section .discover-digital-art {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    max-width: 510px;
+    margin-top: -1px;
+    margin-bottom: 0;
+    font-family: var(--h1-work-sans-font-family);
+    font-weight: var(--h1-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--h1-work-sans-font-size);
+    letter-spacing: var(--h1-work-sans-letter-spacing);
+    line-height: var(--h1-work-sans-line-height);
+    font-style: var(--h1-work-sans-font-style);
+}
+
+.hero-section .NFT-marketplace-UI {
+    position: relative;
+    align-self: stretch;
+    margin: 0;
+    font-family: var(--body-text-work-sans-font-family);
+    font-weight: var(--body-text-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--body-text-work-sans-font-size);
+    letter-spacing: var(--body-text-work-sans-letter-spacing);
+    line-height: var(--body-text-work-sans-line-height);
+    font-style: var(--body-text-work-sans-font-style);
+}
+
+.hero-section .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0 50px;
+    position: relative;
+    background-color: var(--call-to-action);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.hero-section .button:hover {
+    transform: scale(0.95);
+}
+
+.hero-section .button:focus {
+    outline: 2px solid var(--blue-accent);
+    outline-offset: 2px;
+}
+
+.hero-section .button:active {
+    transform: scale(0.9);
+}
+
+.hero-section .rocket-launch {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.hero-section .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+}
+
+.hero-section .additional-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 20px;
+}
+
+.hero-section .div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 20px;
+}
+
+.hero-section .text-wrapper-2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--h4-space-mono-font-family);
+    font-weight: var(--h4-space-mono-font-weight);
+    color: var(--white);
+    font-size: var(--h4-space-mono-font-size);
+    letter-spacing: var(--h4-space-mono-letter-spacing);
+    line-height: var(--h4-space-mono-line-height);
+    font-style: var(--h4-space-mono-font-style);
+}
+
+.hero-section .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 38.4px;
+}
+
+.hero-section .highlighted-NFT {
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-image: url(https://cdn.animaapp.com/projects/6357ce7c8a65b2f16659918c/files/heroanimationtransparentbck-2.gif);
+    background-size: cover;
+    background-position: 50% 50%;
+    object-fit: cover;
+}
+
+.trending-collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 80px 0px;
+    position: relative;
+    background-color: var(--background);
+}
+
+.trending-collection .section-headline {
+    display: flex;
+    flex-direction: column;
+    max-width: 1050px;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.trending-collection .div-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.trending-collection .text-wrapper {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--h3-work-sans-font-family);
+    font-weight: var(--h3-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--h3-work-sans-font-size);
+    letter-spacing: var(--h3-work-sans-letter-spacing);
+    line-height: var(--h3-work-sans-line-height);
+    font-style: var(--h3-work-sans-font-style);
+}
+
+.trending-collection .checkout-our-weekly {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--body-text-work-sans-font-family);
+    font-weight: var(--body-text-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--body-text-work-sans-font-size);
+    letter-spacing: var(--body-text-work-sans-letter-spacing);
+    line-height: var(--body-text-work-sans-line-height);
+    font-style: var(--body-text-work-sans-font-style);
+}
+
+.trending-collection .collection-card-row {
+    display: flex;
+    width: 1050px;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    flex: 0 0 auto;
+    overflow-x: scroll;
+}
+
+.trending-collection .collection-card-row::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+.trending-collection .collection-card {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    background-color: var(--background);
+    border-radius: 20px;
+}
+
+.trending-collection .photos-number-of {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.trending-collection .primary-photo {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 330px;
+    transition: all 0.3s ease;
+    object-fit: cover;
+}
+
+.trending-collection .primary-photo:hover {
+    transform: scale(0.95);
+}
+
+.trending-collection .frame {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.trending-collection .secondary-photo {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 100px;
+    transition: all 0.3s ease;
+    object-fit: cover;
+}
+
+.trending-collection .secondary-photo:hover {
+    transform: scale(0.95);
+}
+
+.trending-collection .number-of-additional {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 32px 15px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--call-to-action);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.trending-collection .number-of-additional:hover {
+    transform: scale(0.95);
+}
+
+.trending-collection .div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin-top: -0.50px;
+    font-family: var(--h5-space-mono-font-family);
+    font-weight: var(--h5-space-mono-font-weight);
+    color: #ffffff;
+    font-size: var(--h5-space-mono-font-size);
+    text-align: center;
+    letter-spacing: var(--h5-space-mono-letter-spacing);
+    line-height: var(--h5-space-mono-line-height);
+    white-space: nowrap;
+    font-style: var(--h5-space-mono-font-style);
+}
+
+.trending-collection .collection-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.trending-collection .collection-name {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--h5-work-sans-font-family);
+    font-weight: var(--h5-work-sans-font-weight);
+    color: #ffffff;
+    font-size: var(--h5-work-sans-font-size);
+    letter-spacing: var(--h5-work-sans-letter-spacing);
+    line-height: var(--h5-work-sans-line-height);
+    font-style: var(--h5-work-sans-font-style);
+}
+
+.trending-collection .artist-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 20px;
+}
+
+.trending-collection .avatar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    transition: all 0.3s ease;
+}
+
+.trending-collection .avatar:hover {
+    transform: scale(0.95);
+}
+
+.trending-collection .asset img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.trending-collection .asset-2 img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.trending-collection .asset-3 img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.trending-collection .avatar-placeholder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.trending-collection .artist-name {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: #ffffff;
+    font-size: var(--base-body-work-sans-font-size);
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    font-style: var(--base-body-work-sans-font-style);
+}
+
+.trending-collection .asset-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/avatar-placeholder-3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.trending-collection .asset-3 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/avatar-placeholder.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.top-rated-artists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 80px 195px;
+    position: relative;
+    background-color: var(--background);
+}
+
+.top-rated-artists .section-headline {
+    display: flex;
+    width: 1050px;
+    align-items: flex-end;
+    gap: 100px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -80.00px;
+    margin-right: -80.00px;
+}
+
+.top-rated-artists .div {
+    display: flex;
+    flex-direction: column;
+    width: 703px;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+}
+
+.top-rated-artists .div-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.top-rated-artists .top-creators {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--h3-work-sans-font-family);
+    font-weight: var(--h3-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--h3-work-sans-font-size);
+    letter-spacing: var(--h3-work-sans-letter-spacing);
+    line-height: var(--h3-work-sans-line-height);
+    font-style: var(--h3-work-sans-font-style);
+}
+
+.top-rated-artists .checkout-top-rated {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--body-text-work-sans-font-family);
+    font-weight: var(--body-text-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--body-text-work-sans-font-size);
+    letter-spacing: var(--body-text-work-sans-letter-spacing);
+    line-height: var(--body-text-work-sans-line-height);
+    font-style: var(--body-text-work-sans-font-style);
+}
+
+.top-rated-artists .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 50px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: var(--call-to-action);
+    transition: all 0.3s ease;
+}
+
+.top-rated-artists .button:hover {
+    transform: scale(0.95);
+}
+
+.top-rated-artists .rocket-launch {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.top-rated-artists .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+}
+
+.top-rated-artists .artist-cards-grid {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: -80.00px;
+    margin-right: -80.00px;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.top-rated-artists .artist-cards-row {
+    display: flex;
+    width: 1050px;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.top-rated-artists .artist-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #3b3b3b;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    flex-direction: column;
+    position: relative;
+}
+
+.top-rated-artists .artist-card:hover {
+    transform: scale(0.95);
+}
+
+.top-rated-artists .artist-avatar {
+    display: inline-flex;
+    align-items: flex-end;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+}
+
+.top-rated-artists .avatar {
+    display: flex;
+    width: 110px;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.top-rated-artists .asset {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: -10.00px;
+    background-image: url(./img/avatar-placeholder-5.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.top-rated-artists .artist-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+}
+
+.top-rated-artists .dish-studio {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--h5-work-sans-font-family);
+    font-weight: var(--h5-work-sans-font-weight);
+    color: #ffffff;
+    font-size: var(--h5-work-sans-font-size);
+    text-align: center;
+    letter-spacing: var(--h5-work-sans-letter-spacing);
+    line-height: var(--h5-work-sans-line-height);
+    font-style: var(--h5-work-sans-font-style);
+}
+
+.top-rated-artists .additional-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.top-rated-artists .text-wrapper-2 {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: var(--caption-label-text);
+    font-size: var(--base-body-work-sans-font-size);
+    text-align: right;
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    font-style: var(--base-body-work-sans-font-style);
+}
+
+.top-rated-artists .text-wrapper-3 {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--base-body-space-mono-font-family);
+    font-weight: var(--base-body-space-mono-font-weight);
+    color: var(--text);
+    font-size: var(--base-body-space-mono-font-size);
+    letter-spacing: var(--base-body-space-mono-letter-spacing);
+    line-height: var(--base-body-space-mono-line-height);
+    font-style: var(--base-body-space-mono-font-style);
+}
+
+.top-rated-artists .ranking-number {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--background);
+    border-radius: 20px;
+}
+
+.top-rated-artists .text-wrapper-4 {
+    position: absolute;
+    top: calc(50.00% - 11px);
+    left: calc(50.00% - 5px);
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--base-body-space-mono-font-family);
+    font-weight: var(--base-body-space-mono-font-weight);
+    color: var(--caption-label-text);
+    font-size: var(--base-body-space-mono-font-size);
+    text-align: center;
+    letter-spacing: var(--base-body-space-mono-letter-spacing);
+    line-height: var(--base-body-space-mono-line-height);
+    white-space: nowrap;
+    font-style: var(--base-body-space-mono-font-style);
+}
+
+.top-rated-artists .asset-2 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: -10.00px;
+    background-image: url(./img/avatar-placeholder-10.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.top-rated-artists .asset-3 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: -10.00px;
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.top-rated-artists .asset-4 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: -10.00px;
+    background-image: url(./img/avatar-placeholder-6.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.top-rated-artists .asset-5 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: -10.00px;
+    background-image: url(./img/avatar-placeholder-3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.top-rated-artists .asset-6 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: -10.00px;
+    background-image: url(./img/avatar-placeholder-4.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.top-rated-artists .asset-7 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: -10.00px;
+    background-image: url(./img/avatar-placeholder-11.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.top-rated-artists .asset-8 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: -10.00px;
+    background-image: url(./img/avatar-placeholder-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.top-rated-artists .asset-9 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: -10.00px;
+    background-image: url(./img/avatar-placeholder-9.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.top-rated-artists .asset-10 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: -10.00px;
+    background-image: url(./img/avatar-placeholder.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.top-rated-artists .element {
+    left: calc(50.00% - 10px);
+    position: absolute;
+    top: calc(50.00% - 11px);
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--base-body-space-mono-font-family);
+    font-weight: var(--base-body-space-mono-font-weight);
+    color: var(--caption-label-text);
+    font-size: var(--base-body-space-mono-font-size);
+    text-align: center;
+    letter-spacing: var(--base-body-space-mono-letter-spacing);
+    line-height: var(--base-body-space-mono-line-height);
+    white-space: nowrap;
+    font-style: var(--base-body-space-mono-font-style);
+}
+
+.top-rated-artists .asset-11 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: -10.00px;
+    background-image: url(./img/avatar-placeholder-7.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.top-rated-artists .asset-12 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: -10.00px;
+    background-image: url(./img/avatar-placeholder-8.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.browse-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 80px 195px;
+    background-color: var(--background);
+}
+
+.browse-categories .section-headline {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1050px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.browse-categories .text-wrapper {
+    font-family: var(--h3-work-sans-font-family);
+    font-weight: var(--h3-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--h3-work-sans-font-size);
+    letter-spacing: var(--h3-work-sans-letter-spacing);
+    line-height: var(--h3-work-sans-line-height);
+    font-style: var(--h3-work-sans-font-style);
+}
+
+.browse-categories .category-cards-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+    max-width: 1050px;
+}
+
+.browse-categories .category-cards-row {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.browse-categories .category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    background-color: #3b3b3b;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.browse-categories .category-card:hover {
+    transform: scale(0.95);
+}
+
+.browse-categories .photo-icon {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+
+.browse-categories .image-placeholder,
+.browse-categories .div,
+.browse-categories .image-placeholder-2,
+.browse-categories .image-placeholder-3,
+.browse-categories .image-placeholder-4,
+.browse-categories .image-placeholder-5 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.browse-categories .image-placeholder {
+    background-image: url('blurry-1.png');
+}
+
+.browse-categories .div {
+    background-image: url('blurry-2.png');
+}
+
+.browse-categories .image-placeholder-2 {
+    background-image: url('blurry-3.png');
+}
+
+.browse-categories .image-placeholder-3 {
+    background-image: url('blurry-4.png');
+}
+
+.browse-categories .image-placeholder-4 {
+    background-image: url('blurry-5.png');
+}
+
+.browse-categories .image-placeholder-5 {
+    background-image: url('blurry-6.png');
+}
+
+.browse-categories .image-placeholder-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.browse-categories .image-placeholder-6 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.browse-categories .image-placeholder-6:first-child {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+}
+
+.browse-categories .collection-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    color: white;
+    padding: 20px 30px 25px;
+    width: 100%;
+}
+
+.browse-categories .category-name {
+    font-family: var(--h5-work-sans-font-family);
+    font-weight: var(--h5-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--h5-work-sans-font-size);
+    letter-spacing: var(--h5-work-sans-letter-spacing);
+    line-height: var(--h5-work-sans-line-height);
+    font-style: var(--h5-work-sans-font-style);
+}
+
+@media (max-width: 1200px) {
+    .browse-categories {
+        padding: 60px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .browse-categories {
+        padding: 40px 20px;
+    }
+
+    .browse-categories .category-cards-row {
+        flex-direction: column;
+    }
+}
+
+
+
+.discover-more-nfts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 80px 20px;
+    position: relative;
+    background-color: var(--background);
+}
+
+.discover-more-nfts .section-headline {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1050px;
+    align-items: flex-end;
+    gap: 100px 100px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.discover-more-nfts .div {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.discover-more-nfts .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--h3-work-sans-font-family);
+    font-weight: var(--h3-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--h3-work-sans-font-size);
+    letter-spacing: var(--h3-work-sans-letter-spacing);
+    line-height: var(--h3-work-sans-line-height);
+    font-style: var(--h3-work-sans-font-style);
+}
+
+.discover-more-nfts .explore-new-trending {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--body-text-work-sans-font-family);
+    font-weight: var(--body-text-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--body-text-work-sans-font-size);
+    letter-spacing: var(--body-text-work-sans-letter-spacing);
+    line-height: var(--body-text-work-sans-line-height);
+    font-style: var(--body-text-work-sans-font-style);
+}
+
+.discover-more-nfts .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 50px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: var(--call-to-action);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.discover-more-nfts .button:hover {
+    transform: scale(0.95);
+}
+
+.discover-more-nfts .eye {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.discover-more-nfts .button-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+}
+
+.discover-more-nfts .NFT-cards-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1050px;
+    align-items: flex-start;
+    gap: 30px 30px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.discover-more-nfts .NFT-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 260px;
+    height: 469px;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #3b3b3b;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.discover-more-nfts .NFT-card:hover {
+    transform: scale(0.95);
+}
+
+.discover-more-nfts .image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.discover-more-nfts .image-placeholder {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 296px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.discover-more-nfts .NFT-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 20px 30px 25px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.discover-more-nfts .artst-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.discover-more-nfts .NFT-name {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--h5-work-sans-font-family);
+    font-weight: var(--h5-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--h5-work-sans-font-size);
+    letter-spacing: var(--h5-work-sans-letter-spacing);
+    line-height: var(--h5-work-sans-line-height);
+    font-style: var(--h5-work-sans-font-style);
+}
+
+.discover-more-nfts .artist-avatar-name {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.discover-more-nfts .avatar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.discover-more-nfts .asset {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/avatar-placeholder-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.discover-more-nfts .NFT-artist {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--base-body-space-mono-font-family);
+    font-weight: var(--base-body-space-mono-font-weight);
+    color: var(--white);
+    font-size: var(--base-body-space-mono-font-size);
+    letter-spacing: var(--base-body-space-mono-letter-spacing);
+    line-height: var(--base-body-space-mono-line-height);
+    font-style: var(--base-body-space-mono-font-style);
+}
+
+.discover-more-nfts .additional-info {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.discover-more-nfts .price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 0px 21px 0px 0px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.discover-more-nfts .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--caption-space-mono-font-family);
+    font-weight: var(--caption-space-mono-font-weight);
+    color: #858584;
+    font-size: var(--caption-space-mono-font-size);
+    letter-spacing: var(--caption-space-mono-letter-spacing);
+    line-height: var(--caption-space-mono-line-height);
+    font-style: var(--caption-space-mono-font-style);
+}
+
+.discover-more-nfts .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--base-body-space-mono-font-family);
+    font-weight: var(--base-body-space-mono-font-weight);
+    color: var(--white);
+    font-size: var(--base-body-space-mono-font-size);
+    letter-spacing: var(--base-body-space-mono-letter-spacing);
+    line-height: var(--base-body-space-mono-line-height);
+    font-style: var(--base-body-space-mono-font-style);
+}
+
+.discover-more-nfts .highest-bid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.discover-more-nfts .text-wrapper-4 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--caption-space-mono-font-family);
+    font-weight: var(--caption-space-mono-font-weight);
+    color: #858584;
+    font-size: var(--caption-space-mono-font-size);
+    text-align: right;
+    letter-spacing: var(--caption-space-mono-letter-spacing);
+    line-height: var(--caption-space-mono-line-height);
+    font-style: var(--caption-space-mono-font-style);
+}
+
+.discover-more-nfts .text-wrapper-5 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--base-body-space-mono-font-family);
+    font-weight: var(--base-body-space-mono-font-weight);
+    color: var(--white);
+    font-size: var(--base-body-space-mono-font-size);
+    text-align: right;
+    letter-spacing: var(--base-body-space-mono-letter-spacing);
+    line-height: var(--base-body-space-mono-line-height);
+    font-style: var(--base-body-space-mono-font-style);
+}
+
+.discover-more-nfts .asset-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.discover-more-nfts .asset-3 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/avatar-placeholder.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+
+/* sakldkabjfkan */
+
+.NFT-highlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-image: url(bigmushrooom.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.NFT-highlight .NFT-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 360px 195px 60px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background: linear-gradient(180deg,
+            rgba(162, 89, 255, 0) 0%,
+            rgba(162, 89, 255, 1) 100%);
+}
+
+.NFT-highlight .frame {
+    display: flex;
+    width: 1050px;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    margin-left: -80.00px;
+    margin-right: -80.00px;
+}
+
+.NFT-highlight .NFT-artst-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.NFT-highlight .artist-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #3b3b3b;
+    border-radius: 20px;
+}
+
+.NFT-highlight .avatar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    transition: all 0.3s ease;
+}
+
+.NFT-highlight .avatar:hover {
+    transform: scale(0.95);
+}
+
+.NFT-highlight .asset img {
+    position: relative;
+    width: 24px;
+    border-radius: 50%;
+    height: 24px;
+    background-image: url(./img/avatar-placeholder.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.NFT-highlight .dish-studio {
+    position: relative;
+    width: fit-content;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: #ffffff;
+    font-size: var(--base-body-work-sans-font-size);
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    white-space: nowrap;
+    font-style: var(--base-body-work-sans-font-style);
+}
+
+.NFT-highlight .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--h2-work-sans-font-family);
+    font-weight: var(--h2-work-sans-font-weight);
+    color: #ffffff;
+    font-size: var(--h2-work-sans-font-size);
+    letter-spacing: var(--h2-work-sans-letter-spacing);
+    line-height: var(--h2-work-sans-line-height);
+    font-style: var(--h2-work-sans-font-style);
+}
+
+.NFT-highlight .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 22px 50px;
+    position: relative;
+    background-color: var(--text);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.NFT-highlight .button:hover {
+    transform: scale(0.95);
+}
+
+.NFT-highlight .eye {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-top: -2.00px;
+    margin-bottom: -2.00px;
+}
+
+.NFT-highlight .div {
+    position: relative;
+    width: fit-content;
+    margin-top: -4.00px;
+    margin-bottom: -2.00px;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--background);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+}
+
+.NFT-highlight .auction-timer {
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 30px;
+    position: relative;
+    background-color: #3b3b3b80;
+    border-radius: 20px;
+    backdrop-filter: blur(5px) brightness(100%);
+    -webkit-backdrop-filter: blur(5px) brightness(100%);
+}
+
+.NFT-highlight .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--caption-space-mono-font-family);
+    font-weight: var(--caption-space-mono-font-weight);
+    color: var(--text);
+    font-size: var(--caption-space-mono-font-size);
+    letter-spacing: var(--caption-space-mono-letter-spacing);
+    line-height: var(--caption-space-mono-line-height);
+    font-style: var(--caption-space-mono-font-style);
+}
+
+.NFT-highlight .timer {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.NFT-highlight .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.NFT-highlight .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--h3-space-mono-font-family);
+    font-weight: var(--h3-space-mono-font-weight);
+    color: var(--text);
+    font-size: var(--h3-space-mono-font-size);
+    letter-spacing: var(--h3-space-mono-letter-spacing);
+    line-height: var(--h3-space-mono-line-height);
+    font-style: var(--h3-space-mono-font-style);
+}
+
+.NFT-highlight .text-wrapper-4 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    font-family: var(--caption-space-mono-font-family);
+    font-weight: var(--caption-space-mono-font-weight);
+    color: var(--text);
+    font-size: var(--caption-space-mono-font-size);
+    letter-spacing: var(--caption-space-mono-letter-spacing);
+    line-height: var(--caption-space-mono-line-height);
+    white-space: nowrap;
+    font-style: var(--caption-space-mono-font-style);
+}
+
+.NFT-highlight .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--h4-space-mono-font-family);
+    font-weight: var(--h4-space-mono-font-weight);
+    color: var(--text);
+    font-size: var(--h4-space-mono-font-size);
+    letter-spacing: var(--h4-space-mono-letter-spacing);
+    line-height: var(--h4-space-mono-line-height);
+    white-space: nowrap;
+    font-style: var(--h4-space-mono-font-style);
+}
+
+/* HOWOWWWW IT WORKKKKKSSKSKSKSKSKS */
+
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding: 80px 195px;
+    position: relative;
+    background-color: var(--background);
+}
+
+.how-it-works .section-headline {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -80.00px;
+    margin-right: -80.00px;
+}
+
+.how-it-works .text-wrapper {
+    position: relative;
+    width: 1050px;
+    margin-top: -1.00px;
+    font-family: var(--h3-work-sans-font-family);
+    font-weight: var(--h3-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--h3-work-sans-font-size);
+    letter-spacing: var(--h3-work-sans-letter-spacing);
+    line-height: var(--h3-work-sans-line-height);
+    font-style: var(--h3-work-sans-font-style);
+}
+
+.how-it-works .find-out-how-to-get {
+    position: relative;
+    width: 1050px;
+    font-family: var(--body-text-work-sans-font-family);
+    font-weight: var(--body-text-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--body-text-work-sans-font-size);
+    letter-spacing: var(--body-text-work-sans-letter-spacing);
+    line-height: var(--body-text-work-sans-line-height);
+    font-style: var(--body-text-work-sans-font-style);
+}
+
+.how-it-works .card-row {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-left: -80.00px;
+    margin-right: -80.00px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.how-it-works .info-card {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 30px 30px;
+    position: relative;
+    background-color: var(--background-secondary);
+    border-radius: 20px;
+}
+
+.how-it-works .icon {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.how-it-works .card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    width: 100%;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.how-it-works .setup-your-wallet {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--h5-work-sans-font-family);
+    font-weight: var(--h5-work-sans-font-weight);
+    color: #ffffff;
+    font-size: var(--h5-work-sans-font-size);
+    text-align: center;
+    letter-spacing: var(--h5-work-sans-letter-spacing);
+    line-height: var(--h5-work-sans-line-height);
+    font-style: var(--h5-work-sans-font-style);
+}
+
+.how-it-works .set-up-your-wallet {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--base-body-work-sans-font-size);
+    text-align: center;
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    font-style: var(--base-body-work-sans-font-style);
+}
+
+.how-it-works .div {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 30px 30px;
+    position: relative;
+    align-self: stretch;
+    background-color: var(--background-secondary);
+    border-radius: 20px;
+}
+
+.how-it-works .setup-your-wallet-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--h5-work-sans-font-family);
+    font-weight: var(--h5-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--h5-work-sans-font-size);
+    text-align: center;
+    letter-spacing: var(--h5-work-sans-letter-spacing);
+    line-height: var(--h5-work-sans-line-height);
+    font-style: var(--h5-work-sans-font-style);
+}
+
+
+
+
+/* NEXXXXXXXXXXXXXXXXXXT */
+.subscribe-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 195px 80px;
+    position: relative;
+    background-color: var(--background);
+}
+
+.subscribe-widget .div {
+    display: flex;
+    width: 1050px;
+    align-items: center;
+    gap: 80px;
+    padding: 60px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -80.00px;
+    margin-right: -80.00px;
+    background-color: #3b3b3b;
+    border-radius: 20px;
+}
+
+.subscribe-widget .photo {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 310px;
+    object-fit: cover;
+}
+
+.subscribe-widget .frame {
+    display: flex;
+    flex-direction: column;
+    width: 425px;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+}
+
+.subscribe-widget .headline-subhead {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.subscribe-widget .join-our-weekly {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--h3-work-sans-font-family);
+    font-weight: var(--h3-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--h3-work-sans-font-size);
+    letter-spacing: var(--h3-work-sans-letter-spacing);
+    line-height: var(--h3-work-sans-line-height);
+    font-style: var(--h3-work-sans-font-style);
+}
+
+.subscribe-widget .get-exclusive {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--body-text-work-sans-font-family);
+    font-weight: var(--body-text-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--body-text-work-sans-font-size);
+    letter-spacing: var(--body-text-work-sans-letter-spacing);
+    line-height: var(--body-text-work-sans-line-height);
+    font-style: var(--body-text-work-sans-font-style);
+}
+
+.subscribe-widget .subscribe-form {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 0px 16px 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: var(--text);
+    border-radius: 20px;
+}
+
+.subscribe-widget .enter-your-email {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 22px;
+    background-color: transparent;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: var(--background);
+    font-size: var(--base-body-work-sans-font-size);
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    border: 0;
+    padding: 0;
+    font-style: var(--base-body-work-sans-font-style);
+}
+
+.subscribe-widget .enter-your-email::placeholder {
+    color: #2b2b2b99;
+}
+
+.subscribe-widget .button {
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 0px 50px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -16.00px;
+    margin-bottom: -16.00px;
+    background-color: var(--call-to-action);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.subscribe-widget .button:hover {
+    transform: scale(0.95);
+    transform-origin: center;
+}
+
+.subscribe-widget .envelope-simple {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.subscribe-widget .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+}
+
+
+/* asbcba */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 195px;
+    position: relative;
+    background-color: var(--background-secondary);
+}
+
+.footer .footer-info {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -48.71px;
+    margin-right: -48.71px;
+}
+
+.footer .NFT-marketplace-info {
+    display: flex;
+    flex-direction: column;
+    width: 327.41px;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0px 84px 0px 0px;
+    position: relative;
+}
+
+.footer .logo {
+    position: relative;
+    width: 243.41px;
+    height: 32px;
+}
+
+.footer .storefront {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.footer .NFT-marketplace {
+    position: absolute;
+    top: 9px;
+    left: 44px;
+    width: 199px;
+    height: 20px;
+}
+
+.footer .div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.footer .text-wrapper {
+    position: relative;
+    width: 238px;
+    margin-top: -1.00px;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: #cccccc;
+    font-size: var(--base-body-work-sans-font-size);
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .community-info {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.footer .text-wrapper-2 {
+    position: relative;
+    width: 238px;
+    height: 18px;
+    margin-top: -1.00px;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: #cccccc;
+    font-size: var(--base-body-work-sans-font-size);
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    white-space: nowrap;
+    font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .icons {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.footer .img {
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+
+.footer .explore {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    align-items: flex-start;
+    gap: 25px;
+    position: relative;
+}
+
+.footer .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--h5-space-mono-font-family);
+    font-weight: var(--h5-space-mono-font-weight);
+    color: #ffffff;
+    font-size: var(--h5-space-mono-font-size);
+    letter-spacing: var(--h5-space-mono-letter-spacing);
+    line-height: var(--h5-space-mono-line-height);
+    white-space: nowrap;
+    font-style: var(--h5-space-mono-font-style);
+}
+
+.footer .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: #cccccc;
+    font-size: var(--base-body-work-sans-font-size);
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    white-space: nowrap;
+    font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: #cccccc;
+    font-size: var(--base-body-work-sans-font-size);
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    white-space: nowrap;
+    font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .subscribe {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.footer .get-exclusive {
+    position: relative;
+    width: 330px;
+    margin-top: -1.00px;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: #cccccc;
+    font-size: var(--base-body-work-sans-font-size);
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .subscribe-form {
+    display: flex;
+    width: 420px;
+    height: 60px;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 0px 16px 20px;
+    position: relative;
+    background-color: var(--text);
+    border-radius: 20px;
+}
+
+.footer .enter-your-email {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 22px;
+    background-color: transparent;
+    font-family: var(--base-body-work-sans-font-family);
+    font-weight: var(--base-body-work-sans-font-weight);
+    color: var(--background);
+    font-size: var(--base-body-work-sans-font-size);
+    letter-spacing: var(--base-body-work-sans-letter-spacing);
+    line-height: var(--base-body-work-sans-line-height);
+    border: 0;
+    padding: 0;
+    font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .enter-your-email::placeholder {
+    color: #2b2b2b99;
+}
+
+.footer .button {
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 0px 50px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -16.00px;
+    margin-bottom: -16.00px;
+    background-color: var(--call-to-action);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.footer .button:hover {
+    transform: scale(0.95);
+    transform-origin: center;
+}
+
+.footer .button-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+}
+
+.footer .frame {
+    display: flex;
+    flex-direction: column;
+    width: 1049.41px;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -79.71px;
+    margin-right: -79.71px;
+}
+
+.footer .divider {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    margin-top: -1.00px;
+    object-fit: cover;
+}
+
+.footer .p {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--caption-work-sans-font-family);
+    font-weight: var(--caption-work-sans-font-weight);
+    color: #cccccc;
+    font-size: var(--caption-work-sans-font-size);
+    letter-spacing: var(--caption-work-sans-letter-spacing);
+    line-height: var(--caption-work-sans-line-height);
+    font-style: var(--caption-work-sans-font-style);
+}
