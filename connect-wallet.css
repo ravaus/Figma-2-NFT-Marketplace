@@ -1,0 +1,568 @@
+body{
+    color: white !important;
+}
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: relative;
+    background-color: var(--background);
+}
+
+.navigation .nav-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.navigation .logo {
+    position: relative;
+    width: 243.41px;
+    height: 32px;
+}
+
+.navigation .storefront {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.navigation .NFT-marketplace {
+    position: absolute;
+    top: 9px;
+    left: 44px;
+    width: 199px;
+    height: 20px;
+}
+
+.navigation .nav-nav-menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.navigation .div {
+    display: inline-flex;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.navigation .div:hover {
+    transform: scale(0.95);
+}
+
+.navigation .button {
+    position: relative;
+    width: fit-content;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+}
+
+.navigation .sign-up {
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 30px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--call-to-action);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.navigation .sign-up:hover {
+    transform: scale(0.95);
+}
+
+.navigation .user {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+.connect-wallet {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+    background-color: var(--background);
+}
+
+.connect-wallet .image-placeholder {
+    position: relative;
+    flex: 1;
+    border-radius: 20px;
+    align-self: stretch;
+    height: 660px;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+.connect-wallet .connect-a-wallet {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 100px 0px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.connect-wallet .headline-subhead {
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.connect-wallet .div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.connect-wallet .headline {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.connect-wallet .text-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--h2-work-sans-font-family);
+    font-weight: var(--h2-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--h2-work-sans-font-size);
+    letter-spacing: var(--h2-work-sans-letter-spacing);
+    line-height: var(--h2-work-sans-line-height);
+    font-style: var(--h2-work-sans-font-style);
+}
+
+.connect-wallet .subhead {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.connect-wallet .p {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Work Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 35.2px;
+}
+
+.connect-wallet .wallet-options {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.connect-wallet .div-2 {
+    display: flex;
+    height: 72px;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px 0px 40px;
+    position: relative;
+    align-self: stretch;
+    color: white;
+    width: 100%;
+    background-color: var(--background-secondary);
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: var(--call-to-action);
+    transition: all 0.3s ease;
+}
+
+.connect-wallet .div-2:hover {
+    transform: scale(0.95);
+}
+
+.connect-wallet .metamask {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: url(./img/metamask.svg);
+    background-size: 100% 100%;
+}
+
+.connect-wallet .text-wrapper-2 {
+    position: relative;
+    flex: 1;
+    font-family: var(--h5-work-sans-font-family);
+    font-weight: var(--h5-work-sans-font-weight);
+    color: var(--white);
+    font-size: var(--h5-work-sans-font-size);
+    letter-spacing: var(--h5-work-sans-letter-spacing);
+    line-height: var(--h5-work-sans-line-height);
+    font-style: var(--h5-work-sans-font-style);
+}
+
+.connect-wallet .wallet-connect {
+    position: relative;
+    width: 40px;
+    color: white;
+    height: 40px;
+    background-image: url(./img/wallet-connect.svg);
+    background-size: 100% 100%;
+}
+
+.connect-wallet .coinbase {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: url(./img/coinbase.svg);
+    background-size: 100% 100%;
+}
+
+
+
+
+ .footer {
+  display: flex;
+  flex-direction: column;
+  border-top: 3px solid rgb(32, 31, 31);
+  align-items: center;
+  gap: 30px;
+  padding: 40px 195px;
+  position: relative;
+  background-color: var(--background-secondary);
+}
+
+.footer .footer-info {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -48.71px;
+  margin-right: -48.71px;
+}
+
+.footer .NFT-marketplace-info {
+  display: flex;
+  flex-direction: column;
+  width: 327.41px;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 0px 84px 0px 0px;
+  position: relative;
+}
+
+.footer .logo {
+  position: relative;
+  width: 243.41px;
+  height: 32px;
+}
+
+.footer .storefront {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+}
+
+.footer .NFT-marketplace {
+  position: absolute;
+  top: 9px;
+  left: 44px;
+  width: 199px;
+  height: 20px;
+}
+
+.footer .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.footer .text-wrapper {
+  position: relative;
+  width: 238px;
+  margin-top: -1.00px;
+  font-family: var(--base-body-work-sans-font-family);
+  font-weight: var(--base-body-work-sans-font-weight);
+  color: #cccccc;
+  font-size: var(--base-body-work-sans-font-size);
+  letter-spacing: var(--base-body-work-sans-letter-spacing);
+  line-height: var(--base-body-work-sans-line-height);
+  font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .community-info {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.footer .text-wrapper-2 {
+  position: relative;
+  width: 238px;
+  height: 18px;
+  margin-top: -1.00px;
+  font-family: var(--base-body-work-sans-font-family);
+  font-weight: var(--base-body-work-sans-font-weight);
+  color: #cccccc;
+  font-size: var(--base-body-work-sans-font-size);
+  letter-spacing: var(--base-body-work-sans-letter-spacing);
+  line-height: var(--base-body-work-sans-line-height);
+  white-space: nowrap;
+  font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.footer .img {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.footer .explore {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  align-items: flex-start;
+  gap: 25px;
+  position: relative;
+}
+
+.footer .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--h5-space-mono-font-family);
+  font-weight: var(--h5-space-mono-font-weight);
+  color: #ffffff;
+  font-size: var(--h5-space-mono-font-size);
+  letter-spacing: var(--h5-space-mono-letter-spacing);
+  line-height: var(--h5-space-mono-line-height);
+  white-space: nowrap;
+  font-style: var(--h5-space-mono-font-style);
+}
+
+.footer .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--base-body-work-sans-font-family);
+  font-weight: var(--base-body-work-sans-font-weight);
+  color: #cccccc;
+  font-size: var(--base-body-work-sans-font-size);
+  letter-spacing: var(--base-body-work-sans-letter-spacing);
+  line-height: var(--base-body-work-sans-line-height);
+  white-space: nowrap;
+  font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--base-body-work-sans-font-family);
+  font-weight: var(--base-body-work-sans-font-weight);
+  color: #cccccc;
+  font-size: var(--base-body-work-sans-font-size);
+  letter-spacing: var(--base-body-work-sans-letter-spacing);
+  line-height: var(--base-body-work-sans-line-height);
+  white-space: nowrap;
+  font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .subscribe {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.footer .get-exclusive {
+  position: relative;
+  width: 330px;
+  margin-top: -1.00px;
+  font-family: var(--base-body-work-sans-font-family);
+  font-weight: var(--base-body-work-sans-font-weight);
+  color: #cccccc;
+  font-size: var(--base-body-work-sans-font-size);
+  letter-spacing: var(--base-body-work-sans-letter-spacing);
+  line-height: var(--base-body-work-sans-line-height);
+  font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .subscribe-form {
+  display: flex;
+  width: 420px;
+  height: 60px;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 0px 16px 20px;
+  position: relative;
+  background-color: var(--text);
+  border-radius: 20px;
+}
+
+.footer .enter-your-email {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 22px;
+  background-color: transparent;
+  font-family: var(--base-body-work-sans-font-family);
+  font-weight: var(--base-body-work-sans-font-weight);
+  color: var(--background);
+  font-size: var(--base-body-work-sans-font-size);
+  letter-spacing: var(--base-body-work-sans-letter-spacing);
+  line-height: var(--base-body-work-sans-line-height);
+  border: 0;
+  padding: 0;
+  font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .enter-your-email::placeholder {
+  color: #2b2b2b99;
+}
+
+.footer .button {
+  display: inline-flex;
+  height: 60px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 0px 50px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -16.00px;
+  margin-bottom: -16.00px;
+  background-color: var(--call-to-action);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.footer .button:hover {
+  transform: scale(0.95);
+  transform-origin: center;
+}
+
+.footer .button-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Work Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.footer .frame {
+  display: flex;
+  flex-direction: column;
+  width: 1049.41px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -79.71px;
+  margin-right: -79.71px;
+}
+
+.footer .divider {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  margin-top: -1.00px;
+  object-fit: cover;
+}
+
+.footer .p {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--caption-work-sans-font-family);
+  font-weight: var(--caption-work-sans-font-weight);
+  color: #cccccc;
+  font-size: var(--caption-work-sans-font-size);
+  letter-spacing: var(--caption-work-sans-letter-spacing);
+  line-height: var(--caption-work-sans-line-height);
+  font-style: var(--caption-work-sans-font-style);
+}

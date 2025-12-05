@@ -1,0 +1,967 @@
+body{
+    color: white;
+    font-family: Work Sans !important;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: relative;
+    background-color: var(--background);
+}
+
+.navigation .nav-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.navigation .logo {
+    position: relative;
+    width: 243.41px;
+    height: 32px;
+}
+
+.navigation .storefront {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.navigation .NFT-marketplace {
+    position: absolute;
+    top: 9px;
+    left: 44px;
+    width: 199px;
+    height: 20px;
+}
+
+.navigation .nav-nav-menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.navigation .div {
+    display: inline-flex;
+    height: 46px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.navigation .div:hover {
+    transform: scale(0.95);
+}
+
+.navigation .button {
+    position: relative;
+    width: fit-content;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+}
+
+.navigation .sign-up {
+    display: inline-flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 30px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--call-to-action);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.navigation .sign-up:hover {
+    transform: scale(0.95);
+}
+
+.navigation .user {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.headline-subhead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 80px 0px;
+  position: relative;
+  background-color: var(--background);
+}
+
+.headline-subhead .div {
+  display: flex;
+  flex-direction: column;
+  width: 1050px;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.headline-subhead .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.headline-subhead .text-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1050px;
+  margin-top: -1.00px;
+  margin-left: -270px;
+  font-family: var(--h2-work-sans-font-family);
+  font-weight: var(--h2-work-sans-font-weight);
+  color: var(--white);
+  font-size: var(--h2-work-sans-font-size);
+  letter-spacing: var(--h2-work-sans-letter-spacing);
+  line-height: var(--h2-work-sans-line-height);
+  font-style: var(--h2-work-sans-font-style);
+}
+
+.headline-subhead .p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Work Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 35.2px;
+}
+
+.headline-subhead .table-header {
+  flex-direction: column;
+  width: 1052px;
+  height: 62px;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 0px;
+  margin-bottom: -1.00px;
+  margin-left: -1.00px;
+  margin-right: -1.00px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: var(--background-secondary);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.headline-subhead .table-headers {
+  width: 1050px;
+  justify-content: space-between;
+  padding: 0px 20px;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.headline-subhead .rank-artist {
+  width: 960px;
+  position: relative;
+  border: 0;
+  background: none;
+  flex: 1;
+  flex-grow: 1;
+  height: 22px;
+  margin-top: -1.00px;
+  font-family: var(--base-body-work-sans-font-family);
+  font-weight: var(--base-body-work-sans-font-weight);
+  color: var(--caption-label-text);
+  font-size: var(--base-body-work-sans-font-size);
+  letter-spacing: var(--base-body-work-sans-letter-spacing);
+  line-height: var(--base-body-work-sans-line-height);
+  padding: 0;
+  font-style: var(--base-body-work-sans-font-style);
+}
+
+.headline-subhead .magnifying-glass {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+/* sdjncjksbjgfnuscgfjkegnfclszluioefnzusoiefibzsgnfcuise */
+.marketplace-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.marketplace-section .frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--background);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.marketplace-section .line {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  margin-top: -1.00px;
+  object-fit: cover;
+}
+
+.marketplace-section .tabs-wrapper {
+  display: flex;
+  width: 1050px;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.marketplace-section .tabs {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.marketplace-section .tab {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 0px 30px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: var(--caption-label-text);
+}
+
+.marketplace-section .created {
+  position: relative;
+  width: fit-content;
+  font-family: var(--h5-work-sans-font-family);
+  font-weight: var(--h5-work-sans-font-weight);
+  color: var(--white);
+  font-size: var(--h5-work-sans-font-size);
+  text-align: center;
+  letter-spacing: var(--h5-work-sans-letter-spacing);
+  line-height: var(--h5-work-sans-line-height);
+  white-space: nowrap;
+  font-style: var(--h5-work-sans-font-style);
+}
+
+.marketplace-section .div-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+  background-color: #858584;
+  border-radius: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.marketplace-section .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--base-body-space-mono-font-family);
+  font-weight: var(--base-body-space-mono-font-weight);
+  color: #ffffff;
+  font-size: var(--base-body-space-mono-font-size);
+  letter-spacing: var(--base-body-space-mono-letter-spacing);
+  line-height: var(--base-body-space-mono-line-height);
+  white-space: nowrap;
+  font-style: var(--base-body-space-mono-font-style);
+}
+
+.marketplace-section .div {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 0px 30px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.marketplace-section .created-2 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--h5-work-sans-font-family);
+  font-weight: var(--h5-work-sans-font-weight);
+  color: var(--caption-label-text);
+  font-size: var(--h5-work-sans-font-size);
+  text-align: center;
+  letter-spacing: var(--h5-work-sans-letter-spacing);
+  line-height: var(--h5-work-sans-line-height);
+  white-space: nowrap;
+  font-style: var(--h5-work-sans-font-style);
+}
+
+.marketplace-section .element-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--background-secondary);
+  border-radius: 20px;
+}
+
+.marketplace-section .NFT-cards-section {
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0px 80px;
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--background-secondary);
+  display: flex;
+  gap: 30px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.marketplace-section .NFT-cards-row {
+  width: 1050px;
+  align-items: flex-start;
+  display: flex;
+  gap: 30px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.marketplace-section .NFT-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 260px;
+  height: 469px;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--background);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.marketplace-section .NFT-card:hover {
+  transform: scale(0.95);
+}
+
+.marketplace-section .image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.marketplace-section .image-placeholder {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 295px;
+  object-fit: cover;
+}
+
+.marketplace-section .NFT-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 20px 30px 25px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.marketplace-section .artst-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.marketplace-section .NFT-name {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--h5-work-sans-font-family);
+  font-weight: var(--h5-work-sans-font-weight);
+  color: var(--white);
+  font-size: var(--h5-work-sans-font-size);
+  letter-spacing: var(--h5-work-sans-letter-spacing);
+  line-height: var(--h5-work-sans-line-height);
+  font-style: var(--h5-work-sans-font-style);
+}
+
+.marketplace-section .artist-avatar-name {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.marketplace-section .avatar {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.marketplace-section .asset {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(avatarnft-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.marketplace-section .NFT-artist {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: var(--base-body-space-mono-font-family);
+  font-weight: var(--base-body-space-mono-font-weight);
+  color: var(--white);
+  font-size: var(--base-body-space-mono-font-size);
+  letter-spacing: var(--base-body-space-mono-letter-spacing);
+  line-height: var(--base-body-space-mono-line-height);
+  font-style: var(--base-body-space-mono-font-style);
+}
+
+.marketplace-section .additional-info {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.marketplace-section .price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0px 21px 0px 0px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.marketplace-section .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--caption-space-mono-font-family);
+  font-weight: var(--caption-space-mono-font-weight);
+  color: #858584;
+  font-size: var(--caption-space-mono-font-size);
+  letter-spacing: var(--caption-space-mono-letter-spacing);
+  line-height: var(--caption-space-mono-line-height);
+  font-style: var(--caption-space-mono-font-style);
+}
+
+.marketplace-section .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--base-body-space-mono-font-family);
+  font-weight: var(--base-body-space-mono-font-weight);
+  color: var(--white);
+  font-size: var(--base-body-space-mono-font-size);
+  letter-spacing: var(--base-body-space-mono-letter-spacing);
+  line-height: var(--base-body-space-mono-line-height);
+  font-style: var(--base-body-space-mono-font-style);
+}
+
+.marketplace-section .highest-bid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.marketplace-section .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--caption-space-mono-font-family);
+  font-weight: var(--caption-space-mono-font-weight);
+  color: #858584;
+  font-size: var(--caption-space-mono-font-size);
+  text-align: right;
+  letter-spacing: var(--caption-space-mono-letter-spacing);
+  line-height: var(--caption-space-mono-line-height);
+  font-style: var(--caption-space-mono-font-style);
+}
+
+.marketplace-section .text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--base-body-space-mono-font-family);
+  font-weight: var(--base-body-space-mono-font-weight);
+  color: var(--white);
+  font-size: var(--base-body-space-mono-font-size);
+  text-align: right;
+  letter-spacing: var(--base-body-space-mono-letter-spacing);
+  line-height: var(--base-body-space-mono-line-height);
+  font-style: var(--base-body-space-mono-font-style);
+}
+
+.marketplace-section .asset-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(avatarnft-2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.marketplace-section .asset-3 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(avatarnft-3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.marketplace-section .asset-4 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(avatarnft-4.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.marketplace-section .asset-5 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(avatarnft-5.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.marketplace-section .asset-6 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(avatarnft-6.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.marketplace-section .asset-7 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(avatarnft-7.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.marketplace-section .asset-8 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(avatarnft-8.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.marketplace-section .asset-9 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(avatarnft-9.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.marketplace-section .asset-10 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(avatarnft-10.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.marketplace-section .asset-11 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(avatarnft-11.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.marketplace-section .asset-12 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(avatarnft-12.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+
+
+
+/* e mkjljafhnuegssyfvgskbgtbfgesfdrtty cvdftedghhhhf bhfj */
+
+
+ .footer {
+  display: flex;
+  flex-direction: column;
+  border-top: 3px solid rgb(32, 31, 31);
+  align-items: center;
+  gap: 30px;
+  padding: 40px 195px;
+  position: relative;
+  background-color: var(--background-secondary);
+}
+
+.footer .footer-info {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -48.71px;
+  margin-right: -48.71px;
+}
+
+.footer .NFT-marketplace-info {
+  display: flex;
+  flex-direction: column;
+  width: 327.41px;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 0px 84px 0px 0px;
+  position: relative;
+}
+
+.footer .logo {
+  position: relative;
+  width: 243.41px;
+  height: 32px;
+}
+
+.footer .storefront {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+}
+
+.footer .NFT-marketplace {
+  position: absolute;
+  top: 9px;
+  left: 44px;
+  width: 199px;
+  height: 20px;
+}
+
+.footer .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.footer .text-wrapper {
+  position: relative;
+  width: 238px;
+  margin-top: -1.00px;
+  font-family: var(--base-body-work-sans-font-family);
+  font-weight: var(--base-body-work-sans-font-weight);
+  color: #cccccc;
+  font-size: var(--base-body-work-sans-font-size);
+  letter-spacing: var(--base-body-work-sans-letter-spacing);
+  line-height: var(--base-body-work-sans-line-height);
+  font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .community-info {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.footer .text-wrapper-2 {
+  position: relative;
+  width: 238px;
+  height: 18px;
+  margin-top: -1.00px;
+  font-family: var(--base-body-work-sans-font-family);
+  font-weight: var(--base-body-work-sans-font-weight);
+  color: #cccccc;
+  font-size: var(--base-body-work-sans-font-size);
+  letter-spacing: var(--base-body-work-sans-letter-spacing);
+  line-height: var(--base-body-work-sans-line-height);
+  white-space: nowrap;
+  font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.footer .img {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.footer .explore {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  align-items: flex-start;
+  gap: 25px;
+  position: relative;
+}
+
+.footer .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--h5-space-mono-font-family);
+  font-weight: var(--h5-space-mono-font-weight);
+  color: #ffffff;
+  font-size: var(--h5-space-mono-font-size);
+  letter-spacing: var(--h5-space-mono-letter-spacing);
+  line-height: var(--h5-space-mono-line-height);
+  white-space: nowrap;
+  font-style: var(--h5-space-mono-font-style);
+}
+
+.footer .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--base-body-work-sans-font-family);
+  font-weight: var(--base-body-work-sans-font-weight);
+  color: #cccccc;
+  font-size: var(--base-body-work-sans-font-size);
+  letter-spacing: var(--base-body-work-sans-letter-spacing);
+  line-height: var(--base-body-work-sans-line-height);
+  white-space: nowrap;
+  font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--base-body-work-sans-font-family);
+  font-weight: var(--base-body-work-sans-font-weight);
+  color: #cccccc;
+  font-size: var(--base-body-work-sans-font-size);
+  letter-spacing: var(--base-body-work-sans-letter-spacing);
+  line-height: var(--base-body-work-sans-line-height);
+  white-space: nowrap;
+  font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .subscribe {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.footer .get-exclusive {
+  position: relative;
+  width: 330px;
+  margin-top: -1.00px;
+  font-family: var(--base-body-work-sans-font-family);
+  font-weight: var(--base-body-work-sans-font-weight);
+  color: #cccccc;
+  font-size: var(--base-body-work-sans-font-size);
+  letter-spacing: var(--base-body-work-sans-letter-spacing);
+  line-height: var(--base-body-work-sans-line-height);
+  font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .subscribe-form {
+  display: flex;
+  width: 420px;
+  height: 60px;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 0px 16px 20px;
+  position: relative;
+  background-color: var(--text);
+  border-radius: 20px;
+}
+
+.footer .enter-your-email {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 22px;
+  background-color: transparent;
+  font-family: var(--base-body-work-sans-font-family);
+  font-weight: var(--base-body-work-sans-font-weight);
+  color: var(--background);
+  font-size: var(--base-body-work-sans-font-size);
+  letter-spacing: var(--base-body-work-sans-letter-spacing);
+  line-height: var(--base-body-work-sans-line-height);
+  border: 0;
+  padding: 0;
+  font-style: var(--base-body-work-sans-font-style);
+}
+
+.footer .enter-your-email::placeholder {
+  color: #2b2b2b99;
+}
+
+.footer .button {
+  display: inline-flex;
+  height: 60px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 0px 50px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -16.00px;
+  margin-bottom: -16.00px;
+  background-color: var(--call-to-action);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.footer .button:hover {
+  transform: scale(0.95);
+  transform-origin: center;
+}
+
+.footer .button-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Work Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.footer .frame {
+  display: flex;
+  flex-direction: column;
+  width: 1049.41px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -79.71px;
+  margin-right: -79.71px;
+}
+
+.footer .divider {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  margin-top: -1.00px;
+  object-fit: cover;
+}
+
+.footer .p {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--caption-work-sans-font-family);
+  font-weight: var(--caption-work-sans-font-weight);
+  color: #cccccc;
+  font-size: var(--caption-work-sans-font-size);
+  letter-spacing: var(--caption-work-sans-letter-spacing);
+  line-height: var(--caption-work-sans-line-height);
+  font-style: var(--caption-work-sans-font-style);
+}
